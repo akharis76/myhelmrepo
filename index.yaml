@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  nginx:
+  - created: 2018-09-18T03:27:24.691640321Z
+    description: A basic NGINX HTTP server
+    digest: 7063bbcc15168011e47e377cfdad2a395d2229a11de1b112f6518c564b4b78e2
+    home: https://github.com/helm/helm
+    keywords:
+    - http
+    - nginx
+    - www
+    - web
+    kubeVersion: '>=1.2.0'
+    maintainers:
+    - email: mbutcher@deis.com
+      name: technosophos
+    name: nginx
+    sources:
+    - https://hub.docker.com/_/nginx/
+    urls:
+    - nginx-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-09-18T03:27:24.690795439Z
